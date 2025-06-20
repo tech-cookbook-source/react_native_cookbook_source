@@ -7,11 +7,11 @@ const getApiUrl = () => {
   if (__DEV__) {
     // Development mode with Expo
     if (Platform.OS === 'web') {
-      // Expo web can use localhost
+      // Expo web can use localhostj
       return 'http://localhost:3000/api';    } else {
       // For Expo on mobile devices (iOS/Android), use your computer's local IP
       // Your current local IP address is 192.168.1.179
-      return 'http://192.168.1.179:3000/api';
+      return 'http://192.168.1.185:3000/api';
     }
   } else {
     // Production mode - replace with your actual server URL
