@@ -63,8 +63,6 @@ const AppointmentScreen = () => {
 
 };
 
-
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
