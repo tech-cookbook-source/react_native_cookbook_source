@@ -3,13 +3,9 @@ import { useState } from 'react';
 // Hàm xử lý logic cho appointment
 const AppointmentLogic = () => {
     const [appointments, setAppointments] = useState([]);
-
     const [date, setDate] = useState('');
-
     const [isDatePickerVisible, setDatePickerVisibility] = useState(false)
-
     const [selectedAppointment, setSelectedAppointment] = useState(null);
-    
     const [appointmentText, setAppointmentText] = useState('');
 
     const addAppointment = (selectedDate) => {
@@ -41,7 +37,6 @@ const AppointmentLogic = () => {
         setDate(selectedDate); // Cập nhật ngày đã chọn
     };
 
-
     const showDatePicker = () => {
         setDatePickerVisibility(true);
     };
@@ -59,7 +54,6 @@ const AppointmentLogic = () => {
         )
     };
 
-
     return {
         appointments,
         date,
@@ -74,5 +68,5 @@ const AppointmentLogic = () => {
     }
 
 };
-// Xuất AppointmentLogic
+
 export default AppointmentLogic;

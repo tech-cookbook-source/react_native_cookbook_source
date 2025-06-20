@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, TouchableOpacity, TextInput, StyleSheet } from 'react-native';
 
-// TodoScreen component chính của ứng dụng
 const TodoScreen = () => {
     const [todos, setTodos] = useState([]); // State để lưu trữ danh sách todo
     const [newTodo, setNewTodo] = useState(''); // State để lưu trữ todo mới
-    // Sử dụng useEffect để khởi tạo danh sách todo ban đầu
+
     useEffect(() => {
         const initialTodos = [
             { id: 1, text: 'Học React Native', completed: false },
