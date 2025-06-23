@@ -4,6 +4,8 @@
 [![Expo](https://img.shields.io/badge/Expo-49.0-black.svg)](https://expo.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Ngôn ngữ:** [🇻🇳 Tiếng Việt](README.md) | [🇺🇸 English](README-EN.md)
+
 Bộ sưu tập 11 ứng dụng React Native từ cơ bản đến nâng cao, được thiết kế như một cuốn cookbook thực hành để học React Native development. Mỗi lab đại diện cho một chủ đề cụ thể với độ phức tạp tăng dần.
 
 ## 📋 Mục Lục
